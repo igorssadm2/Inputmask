@@ -82,6 +82,7 @@ To mark a part of the inputFormat as optional, use the [] as you would for other
 Ex.
 inputFormat: "dd/mm/yyyy [HH]"
 
+To show format '12:00': $(exemple).inputmask("datetime", { inputFormat: "HH:MM", "clearIncomplete": true, placeholder: "00:00"  });
 
 ## displayFormat
 Visual format when the input looses focus
